@@ -9,6 +9,7 @@ html {
   --dark-blue: #002b8f;
   --mid-blue: #3ba0ff;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -78,6 +79,7 @@ li a {
   0% {
     transform: scale(1.5);
   }
+
   100% {
     transform: scale(1);
   }
@@ -266,20 +268,27 @@ li a {
   padding-top: 30px;
 }
 
+#contactme a:visited {
+  color: var(--dark-blue);
+}
+
 /* Mobile View  */
 @media (max-width: 768px) {
   #nav {
     display: none;
   }
+
   #mobile-nav {
     display: block;
   }
+
   .mobile-nav-bar {
     width: 100%;
     position: fixed;
     bottom: 0;
     z-index: 5;
   }
+
   ul {
     background-color: rgba(0, 0, 0, 0.625);
   }
@@ -339,11 +348,13 @@ li a {
     background-size: cover;
     background-position: center;
   }
+
   .about-text {
     margin-left: 20px;
     width: 100%;
     font-size: 0.75rem;
   }
+
   .text-container {
     height: 90px;
   }
