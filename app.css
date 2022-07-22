@@ -196,10 +196,11 @@ li a {
   bottom: 0;
   background-color: white;
   overflow: hidden;
+  text-align: center;
 }
 
 .text-container:hover {
-  height: 250px;
+  height: auto;
 }
 
 .name {
@@ -209,7 +210,7 @@ li a {
 }
 
 .content {
-  padding: 25px 0;
+  padding: 25px;
   color: var(--mid-blue);
 }
 
@@ -218,7 +219,11 @@ li a {
   width: 160px;
   box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
   padding: 15px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  background-color: rgba(100, 100, 100, 0.2);
 }
 
 .about-container {
@@ -338,5 +343,13 @@ li a {
     margin-left: 20px;
     width: 100%;
     font-size: 0.75rem;
+  }
+  .text-container {
+    height: 90px;
+  }
+
+  .about-text {
+    text-align: center;
+    margin: 10px;
   }
 }
