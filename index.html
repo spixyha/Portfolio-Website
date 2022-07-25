@@ -1,168 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="app.css" />
-    <script
-      src="https://kit.fontawesome.com/718cdb969a.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <!-- Desktop Navbar -->
-    <section id="nav">
-      <div class="nav-bar">
-        <div class="links">
-          <ul>
-            <li><a href="#name" id="name">Constantin Lisnic</a></li>
-            <li><a href="#projects" id="project">Projects</a></li>
-            <li><a href="#aboutme" id="about">About</a></li>
-            <li><a href="#contactme" id="contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <!-- End of Desktop Navbar -->
 
-    <!-- Mobile Navbar -->
-    <section id="mobile-nav">
-      <div class="mobile-nav-bar">
-        <div class="links">
-          <ul>
-            <li>
-              <a href="#name"><i class="fas fa-home"></i></a>
-            </li>
-            <li>
-              <a href="#projects" id="project"><i class="fas fa-folder"></i></a>
-            </li>
-            <li>
-              <a href="#about" id="about"><i class="fas fa-user"></i></a>
-            </li>
-            <li>
-              <a href="#contact" id="contact"
-                ><i class="fas fa-envelope-open-text"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <!-- End of Mobile Navbar -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/718cdb969a.js" crossorigin="anonymous"></script>
+  <title>Portfolio</title>
+</head>
 
-    <!-- Hero Section  -->
-    <section id="hero">
-      <div class="container">
-        <div class="overlay"></div>
-        <div class="image-container"></div>
+<body>
+  <!-- Desktop Navbar -->
+  <section id="nav">
+    <div class="nav-bar">
+      <div class="links">
+        <ul>
+          <li><a href="#name" id="name">Constantin Lisnic</a></li>
+          <li><a href="#projects" id="project">Projects</a></li>
+          <li><a href="#aboutme" id="about">About</a></li>
+          <li><a href="#contactme" id="contact">Contact</a></li>
+        </ul>
       </div>
-      <div class="hero-text">
-        <h1>
-          <span id="firstWord">Solving</span> <br />
-          Problems & Creating <br />
-          Solutions
-        </h1>
-        <a href="#" class="resume-cta">
-          <span class="resume-text">Resume</span>
-        </a>
-      </div>
-    </section>
-    <!-- End of Hero Section  -->
+    </div>
+  </section>
+  <!-- End of Desktop Navbar -->
 
-    <!-- Project Section  -->
-    <section id="projects">
-      <div class="project-container">
-        <div class="project-header">Projects</div>
-        <div class="projects">
-          <div class="project-item">
-            <div class="battleship-project">
-              <div class="text-container">
-                <h2 class="name">Battleship Game</h2>
-                <div class="content">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fugiat expedita aliquam modi, esse dolores molestias vel
-                    nesciunt, delectus, similique blanditiis iure ratione odit!
-                    Quasi culpa reiciendis repudiandae eum. Qui, nisi.
-                  </p>
-                </div>
-                <a href="#"><button class="button">View Project</button></a>
+  <!-- Mobile Navbar -->
+  <section id="mobile-nav">
+    <div class="mobile-nav-bar">
+      <div class="links">
+        <ul>
+          <li>
+            <a href="#name"><i class="fas fa-home"></i></a>
+          </li>
+          <li>
+            <a href="#projects" id="project"><i class="fas fa-folder"></i></a>
+          </li>
+          <li>
+            <a href="#about" id="about"><i class="fas fa-user"></i></a>
+          </li>
+          <li>
+            <a href="#contact" id="contact"><i class="fas fa-envelope-open-text"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- End of Mobile Navbar -->
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="container">
+      <div class="overlay"></div>
+      <div class="image-container"></div>
+    </div>
+    <div class="hero-text">
+      <h1>
+        <span id="firstWord">Solving</span> <br />
+        Problems & Creating <br />
+        Solutions
+      </h1>
+      <a href="#" class="resume-cta">
+        <span class="resume-text">Resume</span>
+      </a>
+    </div>
+  </section>
+  <!-- End of Hero Section  -->
+
+  <!-- Project Section  -->
+  <section id="projects">
+    <div class="project-container">
+      <div class="project-header">Projects</div>
+      <div class="projects">
+        <div class="project-item">
+          <div class="battleship-project">
+            <div class="text-container">
+              <h2 class="name">Battleship Game</h2>
+              <div class="content">
+                <p>
+                  Based on the classic Battleship Game, this application was design in raw JavaScript code (no
+                  libraries). It manipulates DOM elements to output the battleships on the board.
+                </p>
               </div>
+              <a href="http://lisnic.co.uk/projects/battleship-game"><button class="button">View
+                  Project</button></a>
             </div>
           </div>
+        </div>
 
-          <div class="project-item">
-            <div class="conference-project">
-              <div class="text-container">
-                <h2 class="name">Conference Website</h2>
-                <div class="content">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fugiat expedita aliquam modi, esse dolores molestias vel
-                    nesciunt, delectus, similique blanditiis iure ratione odit!
-                    Quasi culpa reiciendis repudiandae eum. Qui, nisi.
-                  </p>
-                </div>
-                <a href="#"><button class="button">View Project</button></a>
+        <div class="project-item">
+          <div class="conference-project">
+            <div class="text-container">
+              <h2 class="name">Museum of Nature</h2>
+              <div class="content">
+                <p>
+                  This website design was built using CSS framework, Bootstrap. It has got a fully responsive design and
+                  a small piece of JavaScript code that keeps the navigation bar up on top when scrolling.
+                </p>
               </div>
+              <a href="http://lisnic.co.uk/projects/museum-of-nature"><button class="button">View Project</button></a>
             </div>
           </div>
+        </div>
 
-          <div class="project-item">
-            <div class="scorekeeper-project">
-              <div class="text-container">
-                <h2 class="name">Score Keeper Website</h2>
-                <div class="content">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fugiat expedita aliquam modi, esse dolores molestias vel
-                    nesciunt, delectus, similique blanditiis iure ratione odit!
-                    Quasi culpa reiciendis repudiandae eum. Qui, nisi.
-                  </p>
-                </div>
-                <a href="#"><button class="button">View Project</button></a>
+        <div class="project-item">
+          <div class="scorekeeper-project">
+            <div class="text-container">
+              <h2 class="name">Scorekeeper App</h2>
+              <div class="content">
+                <p>
+                  This is a simple Ping Pong score keeper app that relies on event handling. The design was built using
+                  CSS framework Bulma.
+                </p>
               </div>
+              <a href="https://lisnic.co.uk/projects/scorekeeper"><button class="button">View Project</button></a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- End of Project Section  -->
+    </div>
+  </section>
+  <!-- End of Project Section  -->
 
-    <!-- About Section    -->
-    <section id="aboutme">
-      <div class="about-container">
-        <div class="about-section">
-          <div class="img-container">
-            <div class="about-img"></div>
-          </div>
-          <div class="about-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-            totam tempore id eligendi porro fugiat a corrupti eaque iste
-            quibusdam asperiores, expedita est. Ut quia totam quibusdam vitae
-            atque alias!
-          </div>
+  <!-- About Section    -->
+  <section id="aboutme">
+    <div class="about-container">
+      <div class="about-section">
+        <div class="img-container">
+          <div class="about-img"></div>
+        </div>
+        <div class="about-text">
+          Hi! I am Constantin and I am on a journey to become a web developer. Even though I have got a background in
+          physics, I was always interested in tech. Web development has never been "just a hobby" for me, it's offered
+          an engaging challenge to continually learn and improve my skills in creating high-quality websites and
+          applications. What started with a simple “Hello World” has become a full-fledged passion that only gets more
+          exciting as the years go by.
         </div>
       </div>
-    </section>
-    <!-- End of About Section   -->
+    </div>
+  </section>
+  <!-- End of About Section   -->
 
-    <!-- social icons/ contact me  -->
-    <section id="contactme">
-      <div class="social-icons">
-        <div class="fb">
-          <a href="#"><i class="fa-brands fa-facebook"></i></a>
-        </div>
-        <div class="ig">
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        </div>
-        <div class="tw">
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-        </div>
+  <!-- social icons/ contact me  -->
+  <section id="contactme">
+    <div class="social-icons">
+      <div class="github">
+        <a href="https://github.com/spixyha"><i class="fa-brands fa-github"></i></a>
       </div>
-    </section>
-    <!-- End of social icons/ contact me -->
-  </body>
+      <div class="linkedin">
+        <a href="https://www.linkedin.com/in/constantin-lisnic-144621164/"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <div class="tw">
+        <a href="https://twitter.com/ConstantinLis"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </div>
+  </section>
+  <!-- End of social icons/ contact me -->
+</body>
+
 </html>
