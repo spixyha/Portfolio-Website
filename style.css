@@ -163,7 +163,7 @@ li a {
   background-position: center;
 }
 
-.conference-project {
+.museum-project {
   width: 400px;
   height: 400px;
   background: white;
@@ -171,7 +171,7 @@ li a {
   box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   margin: 50px;
-  background-image: URL("images/nature4.png");
+  background-image: URL("images/nature4.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -185,6 +185,32 @@ li a {
   border-radius: 10px;
   margin: 50px;
   background-image: URL("images/scorekeeper-project.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.calculator-project {
+  width: 400px;
+  height: 400px;
+  background: white;
+  position: relative;
+  box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 50px;
+  background-image: URL("images/calculator.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.todo-pomodoro-project {
+  width: 400px;
+  height: 400px;
+  background: white;
+  position: relative;
+  box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 50px;
+  background-image: URL("images/todo.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -307,7 +333,7 @@ li a {
     background-position: center;
   }
 
-  .conference-project {
+  .museum-project {
     width: 250px;
     height: 400px;
     background: white;
@@ -315,7 +341,7 @@ li a {
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: URL("images/nature4.png");
+    background-image: URL("images/nature4.jpg");
     background-size: cover;
     background-position: center;
   }
@@ -329,6 +355,32 @@ li a {
     border-radius: 10px;
     margin: 50px;
     background-image: URL("images/scorekeeper-project.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .calculator-project {
+    width: 250px;
+    height: 400px;
+    background: white;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: URL("images/calculator.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .todo-pomodoro-project {
+    width: 250px;
+    height: 400px;
+    background: white;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: URL("images/todo.jpg");
     background-size: cover;
     background-position: center;
   }
